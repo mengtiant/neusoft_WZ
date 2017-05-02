@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+	    <title>网页设计</title>
+	    <link rel="stylesheet" type="text/css" href="css/index.css" />
+	    <script src="js/index.js">
+	    	
+	    </script>
+	</head>
+	<body>
+		<div id="header">
+			<img id="hid" src="img/hd_logo.png"/>
+			
+			<div id="tel" >
+			    <img src="img/tel.png" align="left"/>
+				<span>
+					咨询电话：</br>
+					<strong> 400-8008888</strong>
+				</span> 
+				
+			</div>
+			
+			<ul id="uid" >
+				<li id="header_li_1"><a href="#">首页</a></li>
+				<li id="header_li_2"><a href="#">关于我们</a></li>
+				<li id="header_li_3"><a href="#">新闻中心</a></li>
+				<li id="header_li_4"><a href="#">产品中心</a></li>
+				<li id="header_li_5"><a href="#">旗下企业</a></li>
+				<li id="header_li_6"><a href="#">在线留言</a></li>
+				<li id="header_li_7"><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+		
+		<div id="middle1" >                  
+			<a href="#"><img id="m_img1" src="img/banner1.jpg"  /></a>
+			<div id="middle1_telbefore" onclick="middle_telbefore()"><a href="#"> < </a></div>
+			<div id="middle1_telnext" onclick="middle_telafter()"><a href="#"> >  </a></div>
+			<ul id="middle1_uid">
+				<li class="middle1_li"><a  href="#" onmousemove="middle_li(1)">1</a></li>
+				<li class="middle1_li"><a  href="#" onmousemove="middle_li(2)">2</a></li>
+				<li class="middle1_li"><a  href="#" onmousemove="middle_li(3)">3</a></li>
+			</ul>
+		</div>
+		
+		
+		<div id="middle2">
+				<div id="middle2_left" >
+				    <a href="#" >
+				    	<div id="mid2_imgl"></div>
+					   
+				       <h3>公司简介</h3>
+				       <p>公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介</p>
+				    </a>
+				
+			    </div>
+			<div id="middle2_right">
+				<a href="#"  >
+					<div id="mid2_imgr" ></div>
+					<h3>产品知识</h3>
+					<p>产品知识产品知识产品知识产品知识产品知识产品知识产品知识产品知识产品知识产品知识产品知识产品知识</p>
+				</a>
+			</div>	
+		</div>
+		
+		
+        <div id="middle3">
+        
+           <div class="middle3_border"></div>
+        	<p style="padding-top:55px;"> 盐湖风光</p>
+        	
+        	<p style="font-size: 13px;"> SALINE LAKE SCENERY</p>
+        	<img src="img/middle1.jpg" style="margin-left: 10%;" />
+        	<img src="img/middle2.jpg" />
+        	<img src="img/middle3.jpg" />
+        	<img src="img/middle4.jpg" />
+        	<div id="middle3_id"><p>查看更多</p></div>
+        	
+        </div>
+          <div id="middle4">
+        	<p style="padding-top:55px;"> 新闻中心</p>
+        	<p style="font-size: 13px;">NEWS</p>
+        	<div class="middle_div" style="margin-left:10;">
+        		
+        		<div id="middle4_div1" >
+        		 	<img src="img/news_l_img.png"  />
+        		 	<p>新闻 &动态</p>
+        		 	
+        		 	<div id="middle4_div2" onclick="middle4_move1()">
+        		 		<img src="img/news1.png" />
+        		 		<div id="middle4_div2_l">
+        		 			<p style="margin-bottom: 1px;">公司新闻 </p> 
+        		 		    <p >NEWS</p>
+        		 		</div>
+        		 	</div>
+        		 	
+        		 	<div id="middle4_div3">
+        		 		<img src="img/news2.png" />
+        		 		<div id="middle4_div2_x" >
+        		 			<p style="margin-bottom: 1px;">行业动态 </p> 
+        		 		    <p >DYNAMIC</p>
+        		 		</div>	
+        		 	</div>
+        		 	
+        		</div>
+        		
+        		
+        		 <div id="middle4_m_t"></div>
+        		 <div id="middle4_m">
+        		 	
+        		 	<p style="color:#00b3e1;">青海高端盐湖科技有限公司董事长视察工地及水源地</p>
+        		 	<p style="font-size: 12px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青海高端盐湖科技有限公司董事长视察工地及水源地，了解生产情况就安全生产现场作出重要指示。会...<a href="#">[详情]</a></p>
+        		 	<ul>
+        		 		<li><a href="#">青海高端盐湖科技有限公司董事长视察工地及水源...</a></li>
+        		 		<li><a href="#">热烈庆祝腾飞葡萄专业合作社施用“辉田”牌硫酸...</a></li>
+        		 		<li><a href="#">西南地区丰收的季节</a></li>
+        		 	</ul>
+        		 	<div id="middle4_m_btn"> 
+        		 		<a href="#">查看更多&nbsp;&nbsp;&nbsp;&nbsp;></a>
+        		 	</div>
+        		 	
+        		 	<p id="middle4_m_second1" >氨基酸多肽高塔复肥在东莞大众批量下线</p>
+        		 	<p style="font-size: 12px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;据介绍，该肥料的显著的特点是：不但能节肥20%、增产15%左右，而且能改善作物品质。氨基酸多肽...<a href="#">[详情]</a></p>
+        		 	<ul>
+        		 		<li><a href="#">青海高端盐湖科技有限公司董事长视察工地及水源...</a></li>
+        		 		<li><a href="#">热烈庆祝腾飞葡萄专业合作社施用“辉田”牌硫酸...</a></li>
+        		 		<li><a href="#">西南地区丰收的季节</a></li>
+        		 	</ul>
+        		 	<div id="middle4_m_btn"> 
+        		 		<a href="#">查看更多&nbsp;&nbsp;&nbsp;&nbsp;></a>
+        		 	</div>
+        		 </div>
+        	</div>
+        		
+        		
+        	<div class="middle_div" style="width: 420px;margin-left: 20px;">
+        		<img src="img/shipin.jpg"/>
+        		<p id="middle4_p1">公司宣传片</p>
+        		<h5 id="middle4_h">TRAILER</h5>
+        	</div>
+        </div>
+        
+        
+		<div id="bottom">
+			<div id="bottom_left">
+				<img src="img/ft_logo.png"/>
+				<div id="bottom_left_p">
+					<p>XXXXXX科技有限公司</p>
+					
+				 <ul>
+					<li>公司地址：XX省XXX市XXX西路14号</li>
+					<li>Email：XXXXXX@126.com</li>
+					<li>传真：0979-8467858  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮编：816000</li>
+				</ul>
+				</div>
+			    <div id="bottom_left_tel">
+			    	<img src="img/ft_tel.png"/>
+			    	<div>&nbsp;400-8008888</div>
+			    </div>
+			</div>
+			
+			<div id="bottom_right"> 
+				<img src="img/erweima.png" />
+			</div>
+		</div>
+		
+		<div id="floor" >
+			<div id="floor_l">
+				<p>友情链接&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>^</span></p>
+				<ul id="floor_l_ul">
+					<li><a href="#">济南大地美术</a></li>
+					<li><a href="#">白鹤拳酒厂</a></li>
+					<li><a href="#">青年帮创意工坊</a></li>
+				</ul>
+			</div>
+			<div id="floor_r">
+				<p>青海高端盐湖科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;青ICP备05001178号</p>
+			</div>
+		</div>
+		
+	</body>
+</html>
